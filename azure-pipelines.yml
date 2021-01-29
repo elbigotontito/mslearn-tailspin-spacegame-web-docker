@@ -4,7 +4,6 @@ trigger:
 variables:
   webRepository: 'web'
   tag: '$(Build.BuildId)'
-  group: Release
 
 stages:
 - stage: 'Build'
